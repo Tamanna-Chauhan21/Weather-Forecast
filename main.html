@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-image: url("peace.jpg");
+      }
+    </style>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <div id="main">
+      <!-- <img src="peace.jpg" /> -->
+      <div>
+        <div id="today-date"></div>
+        <br />
+        <div id="time"></div>
+        <br />
+        <p id="myLoc">Asia , Kolkata , IN</p>
+      </div>
+      <div id="search">
+        <input type="text" placeholder="Enter City" id="city">
+        <button id="searchBtn">
+            Find
+        </button>
+        <h1 id="temp"></h1>
+        <button id="convertF">Convert to F</button>
+        <div id="conditions">
+          <div id="humidity">
+            <h3>Humidity</h3>
+            <h1 id="humid"></h1>
+          </div>
+          <div id="windspeed">
+            <h3>Wind Speed</h3>
+            <h1 id="wind"></h1>
+          </div>
+        </div>
+      </div>
+      <div id="days">
+     <div id="dayOne">
+      <div id="head">
+        <!-- <p id="date"></p> -->
+         <h3 id="future-day1"></h3>
+         <span><h3>Avg Temp</h3></span>
+        <p id="tomorrow"></p>
+      </div>
+     </div>
+      <div id="dayTwo">
+        <div id="head">
+          <!-- <p id="date"></p> -->
+           <h3 id="future-day2"></h3>
+           <span><h3>Avg Temp</h3></span>
+           <p id="day-after-tom"></p>
+        </div>
+      </div>
+      <div id="dayThree">
+        <div id="head">
+          <!-- <p id="date"></p> -->
+           <h3 id="future-day3"></h3>
+           <span><h3>Avg Temp</h3></span>
+           <p id="next-to-next"></p>
+        </div>
+      </div>
+      </div>
+      
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
